@@ -3,3 +3,27 @@
 @import "tailwindcss/utilities.css";
 
 @import "nativewind/theme";
+
+@theme {
+    --color-primary: #0f172a;
+    --color-background: #f1f5f9;
+    --color-success: #22c55e;
+}
+
+@layer utilities {
+    .tabs-icon {
+        @apply items-center justify-center;
+    }
+
+    .tabs-pill {
+        @apply h-12 w-12 items-center justify-center rounded-full;
+    }
+
+    .tabs-active {
+        @apply bg-primary;
+    }
+
+    .tabs-glyph {
+        @apply h-6 w-6;
+    }
+}

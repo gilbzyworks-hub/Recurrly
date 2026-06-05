@@ -5,47 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3c6fd63c-669e-4ca1-be32-be2b1a93d142" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/activity.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/adobe.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/back.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/canva.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/claude.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/dropbox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/figma.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/github.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/medium.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/menu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/notion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/openai.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/plus.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/setting.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/spotify.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/icons/wallet.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/data.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/icons.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/image.d.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/type.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/constants/theme.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/app.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/(tabs)/subscriptions/[id].tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/subscriptions/[id].tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-foreground.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/android-icon-monochrome.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/favicon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/partial-react-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/react-logo@3x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/images/splash-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/global.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/(tabs)/_layout.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,61 +20,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.0" />
-      <entry key="M5" value="1.0" />
-      <entry key="M10" value="1.0" />
-      <entry key="M15" value="1.0" />
-      <entry key="M30" value="1.0000000000388052" />
-      <entry key="H1" value="1.0000426382146232" />
-      <entry key="H2" value="1.0543844114912395" />
-      <entry key="H4" value="3.078233269968436" />
-      <entry key="D1" value="78.33846438819268" />
-      <entry key="W1" value="422.74904886843706" />
+      <entry key="MS100" value="1.0001299366528087" />
+      <entry key="MS500" value="1.3828471109370855" />
+      <entry key="S2" value="3.8712281838252376" />
+      <entry key="S5" value="6.375126260317862" />
+      <entry key="S10" value="8.077007380008201" />
+      <entry key="S30" value="10.680808310219636" />
+      <entry key="S60" value="13.060368611617095" />
+      <entry key="M2" value="18.73191426564096" />
+      <entry key="M5" value="34.13010297969253" />
+      <entry key="M10" value="49.52436675516668" />
+      <entry key="M15" value="57.80716213592807" />
+      <entry key="M30" value="68.6489638854737" />
+      <entry key="H1" value="75.31314759916916" />
+      <entry key="H2" value="79.06701217068407" />
+      <entry key="H4" value="82.94153739611573" />
+      <entry key="D1" value="159.29893789159934" />
+      <entry key="W1" value="504.1551525525767" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="2.8169453946510196E-196" />
-      <entry key="M5" value="6.0243663130663E-79" />
-      <entry key="M10" value="7.761679143758979E-40" />
-      <entry key="M15" value="8.445728645763259E-27" />
-      <entry key="M30" value="9.190064551331113E-14" />
-      <entry key="H1" value="3.0315119249858635E-7" />
-      <entry key="H2" value="5.505919150736356E-4" />
-      <entry key="H4" value="0.023520156719018595" />
-      <entry key="D1" value="3.7572410764545854" />
-      <entry key="W1" value="30.727744789592524" />
+      <entry key="MS100" value="3.5750745187353644E-56" />
+      <entry key="MS500" value="8.140611324311694E-12" />
+      <entry key="S2" value="0.0016891345879047634" />
+      <entry key="S5" value="0.07781542647237975" />
+      <entry key="S10" value="0.27895416554046987" />
+      <entry key="S30" value="0.6533977234651775" />
+      <entry key="S60" value="0.8083302069483597" />
+      <entry key="M2" value="0.8990718586121798" />
+      <entry key="M5" value="0.9583359093588537" />
+      <entry key="M10" value="0.9789463260868054" />
+      <entry key="M15" value="0.985914500003347" />
+      <entry key="M30" value="0.9929322736236669" />
+      <entry key="H1" value="0.9964601145329717" />
+      <entry key="H2" value="0.9987223088750408" />
+      <entry key="H4" value="1.0213911484978686" />
+      <entry key="D1" value="4.72325178737491" />
+      <entry key="W1" value="31.68803230027291" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.504871680440306E-5" />
-      <entry key="MS500" value="0.10851752845013034" />
-      <entry key="S2" value="0.5739512069275009" />
-      <entry key="S5" value="0.8008478046460585" />
-      <entry key="S10" value="0.8949010027070361" />
-      <entry key="S30" value="0.9636625866956605" />
-      <entry key="S60" value="0.9816631737493572" />
-      <entry key="M2" value="0.9907891671538184" />
-      <entry key="M5" value="0.9963054358148128" />
-      <entry key="M10" value="0.9981510085226648" />
-      <entry key="M15" value="0.9987669588393351" />
-      <entry key="M30" value="0.9993832892924894" />
-      <entry key="H1" value="0.999734536683123" />
-      <entry key="H2" value="1.0547795845823522" />
-      <entry key="H4" value="3.101652365298939" />
-      <entry key="D1" value="82.09526971698324" />
-      <entry key="W1" value="453.4762540844783" />
+      <entry key="MS100" value="0.8410115212665435" />
+      <entry key="MS500" value="1.3059948844585405" />
+      <entry key="S2" value="3.7562435645871606" />
+      <entry key="S5" value="6.306653436405226" />
+      <entry key="S10" value="8.128864095978587" />
+      <entry key="S30" value="11.123277618861081" />
+      <entry key="S60" value="13.720149652517968" />
+      <entry key="M2" value="19.51548487996123" />
+      <entry key="M5" value="34.99379417390198" />
+      <entry key="M10" value="50.43338433679188" />
+      <entry key="M15" value="58.73885146654145" />
+      <entry key="M30" value="69.61001125928644" />
+      <entry key="H1" value="76.29224643935366" />
+      <entry key="H2" value="80.05666515445404" />
+      <entry key="H4" value="83.95827038714118" />
+      <entry key="D1" value="164.0209835432451" />
+      <entry key="W1" value="535.8425350146871" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -189,6 +152,11 @@
       <workItem from="1779998989068" duration="9704000" />
       <workItem from="1780181404912" duration="102000" />
       <workItem from="1780181527995" duration="1252000" />
+      <workItem from="1780440116943" duration="620000" />
+      <workItem from="1780440938142" duration="616000" />
+      <workItem from="1780442909823" duration="369000" />
+      <workItem from="1780482310533" duration="669000" />
+      <workItem from="1780510118538" duration="2250000" />
     </task>
     <servers />
   </component>

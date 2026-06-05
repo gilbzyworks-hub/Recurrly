@@ -1,17 +1,14 @@
-import { View, Text } from 'react-native'
-import React from 'react'
-import { Link } from 'expo-router'
+import { styled } from "nativewind";
+import { Text } from "react-native";
+import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
+const SafeAreaView = styled(RNSafeAreaView);
 
 const Insights = () => {
   return (
-    <View>
+    <SafeAreaView className="flex-1 bg-background p-5">
       <Text>Insights</Text>
+    </SafeAreaView>
+  );
+};
 
-      <Link href="/">
-        Home
-      </Link>
-    </View>
-  )
-}
-
-export default Insights
+export default Insights;

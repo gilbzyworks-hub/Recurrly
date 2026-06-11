@@ -1,30 +1,39 @@
 import "@/global.css";
 
+import { useClerk, useUser } from "@clerk/expo";
+import { FlatList, Image, Pressable, Text, View } from "react-native";
+
 import {
   HOME_BALANCE,
   HOME_SUBSCRIPTIONS,
-  HOME_USER,
   UPCOMING_SUBSCRIPTIONS,
 } from "@/constants/data";
 
-import { icons } from "@/constants/icons";
+import ListHeading from "@/components/ListHeading";
+import SubscriptionCard from "@/components/SubscriptionCard";
+import UpcomingSubscriptionsCard from "@/components/UpcomingSubscriptionsCard";
 import images from "@/constants/images";
 import { formatCurrency } from "@/lib/utils";
 
 import dayjs from "dayjs";
 import { styled } from "nativewind";
 import { useState } from "react";
-import { FlatList, Image, Text, View } from "react-native";
 import { SafeAreaView as RNSafeAreaView } from "react-native-safe-area-context";
-
-import ListHeading from "@/components/ListHeading";
-import SubscriptionCard from "@/components/SubscriptionCard";
-import UpcomingSubscriptionsCard from "@/components/UpcomingSubscriptionsCard";
 
 const SafeAreaView = styled(RNSafeAreaView);
 
 export default function App() {
+  const { user } = useUser();
+  const { signOut } = useClerk();
   const [expandedId, setExpandedId] = useState<string | null>(null);
+
+  const displayName =
+    user?.firstName ||
+    user?.fullName ||
+    user?.emailAddresses?.[0]?.emailAddress ||
+    "User";
+
+  const avatarSource = user?.imageUrl ? { uri: user.imageUrl } : images.avatar;
 
   return (
     <SafeAreaView className="flex-1 bg-background p-5">
@@ -35,12 +44,20 @@ export default function App() {
           <>
             <View className="home-header">
               <View className="home-user">
-                <Image source={images.avatar} className="home-avatar" />
+                <Image source={avatarSource} className="home-avatar" />
 
-                <Text className="home-user-name">{HOME_USER.name}</Text>
+                <View>
+                  <Text className="text-gray-500 font-sans-medium text-sm">
+                    Welcome back
+                  </Text>
+
+                  <Text className="home-user-name">{displayName}</Text>
+                </View>
               </View>
 
-              <Image source={icons.add} className="home-add-icon" />
+              <Pressable onPress={() => signOut()}>
+                <Text className="font-sans-semibold">Sign Out</Text>
+              </Pressable>
             </View>
 
             <View className="home-balance-card">
@@ -76,7 +93,7 @@ export default function App() {
               />
             </View>
 
-            <ListHeading title="All Subscription" />
+            <ListHeading title="All Subscriptions" />
           </>
         )}
         renderItem={({ item }) => (
